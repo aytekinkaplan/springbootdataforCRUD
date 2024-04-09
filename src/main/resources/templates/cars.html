@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Information</title>
+    <style>
+        /* Tablo stilini ayarla */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px; /* Tablonun altına boşluk bırak */
+            border: 2px solid #ddd; /* Tablo kenarları için çizgi */
+        }
+
+        /* Tablo başlığı stilini ayarla */
+        th {
+            background-color: #f2f2f2;
+            border: 1px solid #ddd; /* Başlık hücreleri için çizgi */
+            padding: 10px;
+            text-align: left;
+        }
+
+        /* Tablo veri hücreleri için stil */
+        td {
+            border: 1px solid #ddd; /* Veri hücreleri için çizgi */
+            padding: 10px;
+        }
+
+        /* Tekrar eden satırlar arka plan rengini değiştir */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Hover etkisi */
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+<h2>Car Information</h2>
+<table>
+    <tr>
+        <th>Property</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>Brand</td>
+        <td id="brand">Toyota</td>
+    </tr>
+    <tr>
+        <td>Model</td>
+        <td id="model">Corolla</td>
+    </tr>
+    <tr>
+        <td>Year</td>
+        <td id="year">2020</td>
+    </tr>
+    <tr>
+        <td>Color</td>
+        <td id="color">Black</td>
+    </tr>
+    <tr>
+        <td>Mileage</td>
+        <td id="mileage">50000.0</td>
+    </tr>
+    <tr>
+        <td>Engine Power</td>
+        <td id="enginePower">150.0</td>
+    </tr>
+    <tr>
+        <td>Fuel Type</td>
+        <td id="fuelType">Petrol</td>
+    </tr>
+    <tr>
+        <td>Price</td>
+        <td id="price">25000.0</td>
+    </tr>
+</table>
+</body>
+</html>
