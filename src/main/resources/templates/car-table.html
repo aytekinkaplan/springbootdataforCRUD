@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<h1>Car Table</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Brand</th>
+        <th>Model</th>
+        <th>Year</th>
+        <th>Color</th>
+        <th>Mileage</th>
+        <th>Engine Power</th>
+        <th>Fuel Type</th>
+        <th>Price</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>${car.brand}</td>
+        <td>${car.model}</td>
+        <td>${car.year}</td>
+        <td>${car.color}</td>
+        <td>${car.mileage}</td>
+        <td>${car.enginePower}</td>
+        <td>${car.fuelType}</td>
+        <td>${car.price}</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
